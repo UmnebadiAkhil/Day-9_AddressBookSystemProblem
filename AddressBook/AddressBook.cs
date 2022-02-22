@@ -255,7 +255,7 @@ namespace AddressbookSystem
             }
             else
             {
-                Console.WriteLine("Address Book is empty");
+                Console.WriteLine("Address Book is empty . No contacts to display");
             }
         }
         /// <summary>
@@ -287,6 +287,7 @@ namespace AddressbookSystem
                         break;
                 }
             }
+
         }
     }
 }
