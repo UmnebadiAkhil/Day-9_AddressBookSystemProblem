@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace AddressbookSystem
 {
-    public class Addressbook
+    public class AddressBook
     {
+        ///This list is created to store contacts
+        List<Contact> contactList;
+
         /// <summary>
-        /// Adds the contact in addresssbook
+        /// Initializes a new instance of the <see cref="AddressBook"/> class.
         /// </summary>
+        public AddressBook()
+        {
+            contactList = new List<Contact>();
+        }
+
+        /// Adds the contact  
         public void AddContact()
         {
             Console.WriteLine("Enter your First Name");
@@ -30,9 +39,12 @@ namespace AddressbookSystem
             Console.WriteLine("Enter your Email-Id");
             string email = Console.ReadLine();
 
+
             ///Creates a reference of Contact class
             Contact contact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
+            contactList.Add(contact);
             Console.WriteLine(contact);
         }
+
     }
 }

@@ -6,11 +6,9 @@ namespace AddressbookSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation!");
-
-            Console.WriteLine("Add Contact details here");
-            //reference to store values in addressbook
-            Addressbook addressBook = new Addressbook();
+            Console.WriteLine("Welcome to Address Book");
+            ///Creates a reference of AddressBook
+            AddressBook addressBook = new AddressBook();
             addressBook.AddContact();
         }
     }
