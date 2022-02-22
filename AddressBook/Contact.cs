@@ -15,7 +15,7 @@ namespace AddressbookSystem
         public string address;
         public string city;
         public string state;
-        public int zipcode;
+        public int zip;
         public long phoneNumber;
         public string email;
 
@@ -37,13 +37,11 @@ namespace AddressbookSystem
             this.address = address;
             this.city = city;
             this.state = state;
-            this.zipcode = zipcode;
+            this.zip = zip;
             this.phoneNumber = phoneNumber;
             this.email = email;
         }
 
-        //Get and set methods are used
-        //Whereas get method returns the value of the variable name
         /// <summary>
         /// Gets the first name.
         /// </summary>
@@ -106,17 +104,12 @@ namespace AddressbookSystem
         /// <returns></returns>
         public int GetZip()
         {
-            return zipcode;
+            return zip;
         }
         /// <summary>
         /// Sets the first name.
         /// </summary>
         /// <param name="firstName">The first name.</param>
-
-
-        //Set method takes the parameter that is passed
-        //and variable names are being assigned
-        //Also this keyword is being used to refer the current object
         public void SetFirstName(string firstName)
         {
             this.firstName = firstName;
@@ -159,7 +152,7 @@ namespace AddressbookSystem
         /// <param name="zip">The zip.</param>
         public void SetZip(int zip)
         {
-            this.zipcode = zipcode;
+            this.zip = zip;
         }
         /// <summary>
         /// Sets the phone number.
@@ -169,12 +162,6 @@ namespace AddressbookSystem
         {
             this.phoneNumber = phoneNumber;
         }
-
-        internal void SetPhoneNumber(string phoneNumber)
-        {
-            throw new NotImplementedException();
-        }
-
         /// <summary>
         /// Sets the email.
         /// </summary>
@@ -183,12 +170,6 @@ namespace AddressbookSystem
         {
             this.email = email;
         }
-
-        internal void SetZipCode(string zipCode)
-        {
-            throw new NotImplementedException();
-        }
-
         /// <summary>
         /// Converts to string.
         /// </summary>
@@ -199,7 +180,7 @@ namespace AddressbookSystem
         public string ToString()
         {
             return "FirstName : " + firstName + " LastName : " + lastName + " Address : " + address + " City : " + city + "State : " + state +
-                " Zip Code :" + zipcode + " Phone Number : " + phoneNumber + " Email Id : " + email;
+                " Zip Code :" + zip + " Phone Number : " + phoneNumber + " Email Id : " + email;
         }
     }
 }
