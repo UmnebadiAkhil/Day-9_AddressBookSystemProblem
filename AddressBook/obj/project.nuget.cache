@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fdo3KK+Qt4KzSzn5+ycijQ7bZ14uv06m/4QZSZQfnMfjuTZA/LCZl/pGl3Baf83X1qZsk6nbQowNXvnxsJ5FnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akhil\\OneDrive\\Desktop\\TerminalCommands\\RFP\\Day-9_AddressBookSystemProblem\\AddressBook\\AddressBook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akhil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.2\\microsoft.netcore.app.host.win-x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\akhil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.2\\microsoft.aspnetcore.app.ref.6.0.2.nupkg.sha512",
+    "C:\\Users\\akhil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.2\\microsoft.windowsdesktop.app.ref.6.0.2.nupkg.sha512",
+    "C:\\Users\\akhil\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.2\\microsoft.netcore.app.ref.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
